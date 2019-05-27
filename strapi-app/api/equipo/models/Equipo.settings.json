@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "equipo",
+    "description": "Equipos de la red"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Conectado": {
+      "default": false,
+      "type": "boolean",
+      "required": true
+    },
+    "Numero de serie": {
+      "default": "",
+      "type": "integer",
+      "required": true
+    }
+  }
+}
