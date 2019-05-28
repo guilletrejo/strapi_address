@@ -32,3 +32,5 @@ strapi start &
 
 strapiPID=$!
 wait "$strapiPID"
+
+mv /usr/src/temp/api/ ./$APP_NAME/api/

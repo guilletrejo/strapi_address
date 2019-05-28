@@ -18,7 +18,7 @@ RUN npm install -g strapi@alpha
 COPY strapi.sh ./
 RUN chmod +x ./strapi.sh
 
-COPY api/ /usr/src/api/strapi-app/api/
+COPY api/ /usr/src/temp/api/
 
 EXPOSE 1337
 
