@@ -30,7 +30,7 @@ fi
 cd $APP_NAME
 strapi start &
 
-mv /usr/src/temp/api/ ./$APP_NAME/
+cp -a /usr/src/temp/api/. /usr/src/api/$APP_NAME/api/
 
 strapiPID=$!
 wait "$strapiPID"
